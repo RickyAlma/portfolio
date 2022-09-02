@@ -59,7 +59,7 @@ class _ProjectsState extends State<Projects> {
                 SizedBox(
                   height: 15,
                 ),
-                FutureBuilder(
+                /*FutureBuilder(
                     future: count(2),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -69,18 +69,18 @@ class _ProjectsState extends State<Projects> {
                           ProjectDescription: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
                           ProjectDescriptionForMobile: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
                           FirstTechnology: 'ANDROID ',
-                          SecondTechnology: ' , JAVA ',
-                          ThirdTechnology: ' , XML ',
-                          ForthTechnology: ' , REST API (Retrofit)',
-                          ProjectUrl: "https://github.com/iamsouviki/Read-Write-and-Share",
+                          SecondTechnology: ' , ........ ',
+                          ThirdTechnology: ' ,..... ',
+                          ForthTechnology: ' ,.... ',
+                          ProjectUrl: "",
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
                 SizedBox(
                   height: 12,
                 ),
-                FutureBuilder(
+                /*FutureBuilder(
                     future: count(3),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
@@ -97,7 +97,7 @@ class _ProjectsState extends State<Projects> {
                         );
                       }
                       return Container();
-                    }),
+                    }),*/
                 SizedBox(
                   height: 12,
                 ),
@@ -106,15 +106,15 @@ class _ProjectsState extends State<Projects> {
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ProjectAdapter(
-                          ProjectName: "My Portfolio",
+                          ProjectName: "Portfolio",
                           ProjectLogoPath: '',
-                          ProjectDescription: "'My Portfolio' is a flutter web application . Its just a web resume",
-                          ProjectDescriptionForMobile: "'My Portfolio' is a flutter web application .\nIts just a web resume",
+                          ProjectDescription: "'Portfolio' is a flutter web application . Its just a web resume",
+                          ProjectDescriptionForMobile: "'Portfolio' is a flutter web application .\nIts just a web resume",
                           FirstTechnology: 'FLUTTER ',
                           SecondTechnology: ', DART ',
                           ThirdTechnology: ', FIREBASE ',
                           ForthTechnology: ', GITHUB',
-                          ProjectUrl: "https://github.com/iamsouviki/souvikportfolio",
+                          ProjectUrl: "",
                         );
                       }
                       return Container();
