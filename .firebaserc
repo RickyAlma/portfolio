@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "jerryportfolio"
-  }
+    "default": "portfolio-ebdcb"
+  },
+  "targets": {},
+  "etags": {}
 }
