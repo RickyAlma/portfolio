@@ -57,14 +57,14 @@ const Experiences = [
     "WorkDescription": "Junior Software Developer",
     "WorkDetails":
         "Designing, implementing, and testing features for mobile applications (Fluter framework)",
-    "WorkDuration": "Oct 1,2021 - Present",
+    "WorkDuration": "Oct,2021 - Present",
   },
   {
     "CompanyLogoPath": 'assets/images/hrm.jpg',
     "CompanyName": "HRM Consultants International (HTMCi)",
     "WorkDescription": "IT Personnel",
     "WorkDetails": "Work as the IT Personnel",
-    "WorkDuration": "May,2021 - Sept, 2021",
+    "WorkDuration": "July,2016 - Sept, 2021",
   },
   {
     "CompanyLogoPath": 'assets/images/',
