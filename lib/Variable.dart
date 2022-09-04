@@ -1,11 +1,12 @@
 //SOCIAL MEDIA LINKS
 
 const String MAIL_ID = "jerrydandi@gmail.com";
-const String LINKEDLN_URL = "https://www.linkedin.com/in/iamsouviki";
-const String GITHUB_URL = "https://github.com/iamsouviki";
-const String TWITTER_URL = "https://twitter.com/iamsouviki";
-const String INSTAGRAM_URL = "https://www.instagram.com/iamsouviki";
-const String FACEBOOK_URL = "https://fb.com/iamsouviki";
+const String LINKEDLN_URL =
+    "https://www.linkedin.com/in/jerry-arickmun-dandi-617092a2/";
+const String GITHUB_URL = "https://github.com/Sir-RickyJD";
+const String TWITTER_URL = "https://twitter.com/Sir_RickyJD";
+const String INSTAGRAM_URL = "https://www.instagram.com/sir_rickyjd";
+const String FACEBOOK_URL = "https://web.facebook.com/rickyjd.j";
 
 //INTRODUCTION PAGE VARIABLE
 const String NAME = "DANDI Jerry Arickmun";
@@ -42,7 +43,7 @@ const String FSLC = "S.D.A PRIMARY SCHOOL JENGRE PLATEAU STATE";
 const Skills = [
   "JavaScript",
   "HTML5",
-  "CSS"
+  "CSS",
   "Flutter",
   "WordPress",
   "Git",
@@ -54,31 +55,31 @@ const Experiences = [
     "CompanyLogoPath": 'assets/images/fiber.png',
     "CompanyName": "RealPany Ltd",
     "WorkDescription": "Junior Software Developer",
-    "WorkDetails": "Designing, implementing, and testing features for mobile applications (Fluter framework)",
+    "WorkDetails":
+        "Designing, implementing, and testing features for mobile applications (Fluter framework)",
     "WorkDuration": "Oct 1,2021 - Present",
   },
   {
     "CompanyLogoPath": 'assets/images/hrm.jpg',
     "CompanyName": "HRM Consultants International (HTMCi)",
     "WorkDescription": "IT Personnel",
-    "WorkDetails": " Work as the IT Personnel",
-    "WorkDuration": "May,2021 - Sep,2021",
-   
+    "WorkDetails": "Work as the IT Personnel",
+    "WorkDuration": "May,2021 - Sept, 2021",
   },
   {
     "CompanyLogoPath": 'assets/images/',
     "CompanyName": "Globelinx ICT Consulting ",
     "WorkDescription": "CONTRACT STAFF",
-    "WorkDetails": 
-    "Installation and configuration of Microsoft OS, FJSC Abuja Project (Installation and configuration of Visitors Management and Security System VMSS), System and Software Maintenance/Troubleshooting",
+    "WorkDetails":
+        "Installation and configuration of Microsoft OS, FJSC Abuja Project (Installation and configuration of Visitors Management and Security System VMSS), System and Software Maintenance/Troubleshooting",
     "WorkDuration": "2014",
   },
   {
     "CompanyLogoPath": 'assets/images/bgh.png',
     "CompanyName": "Babcock Uni. Guest House Abuja ",
     "WorkDescription": "IT Assistant",
-    "WorkDetails": 
-    "System Networking, Troubleshoot system and network problems as well as hardware and software issues.",
+    "WorkDetails":
+        "System Networking, Troubleshoot system and network problems as well as hardware and software issues.",
     "WorkDuration": "2010",
   }
 ];

@@ -128,18 +128,22 @@ class _IntroDuctionAnimationTextAdapterState
             padding: EdgeInsets.only(bottom: 20),
             child: FutureBuilder(
               future: count(8),
-              builder: (context,snapshot){
-                if(snapshot.connectionState == ConnectionState.done){
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.done) {
                   return Container(
                     margin: EdgeInsets.only(top: 15),
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0),color: Colors.white38,),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30.0),
+                      color: Colors.white38,
+                    ),
                     child: TextButton(
                       child: Text(
                         "    Resume    ",
                         style: TextStyle(color: Colors.black, fontSize: 15),
                       ),
-                      onPressed: (){
-                        launch("https://drive.google.com/file/d/1VoUkdWeccwntgGrs-tFTj8VNGqpQmYPl/view?usp=sharing");
+                      onPressed: () {
+                        launch(
+                            "https://drive.google.com/file/d/1SuY_6PXYsHMNQIO4Oc1HrzpU_E4ofuPP/view?usp=sharing");
                       },
                     ),
                   );
